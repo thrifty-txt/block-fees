@@ -1,0 +1,17 @@
+[package]
+name = "block-fees"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+tokio-stream = { version = "0.1.8" }
+serde = { version = "1", features = ["derive"] }
+rust_decimal = { version = "1" }
+rust_decimal_macros = { version = "1" }
+url = { version = "2" }
+log = { version = "0.4" }
+env_logger = { version = "0.9" }
